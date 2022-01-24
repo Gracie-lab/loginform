@@ -1,3 +1,5 @@
+import './formstyle.css'
+
 function Form() {
     return (
         <>
@@ -5,13 +7,20 @@ function Form() {
             <div className="form">
                 <h4>Login</h4>
                 <form>
-                    <label>
+                    <label className="label1">
                         Email Address:
                     </label>
                     <br/> <br/>
-                    <input type="text" name="" />
+                    <input className="box" type="text" name="" />
                     <br/> <br/>
-                    <input type="submit" value="Login" />
+                    <label className="label2">
+                        Password:
+                    </label>
+                    <br/> <br/>
+                    <input className="box1" type="text" name="" />
+                    <br/> <br/>
+
+                    <input className="login-bar" type="submit" value="Login" />
                 </form>
 
 
