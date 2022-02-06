@@ -1,11 +1,10 @@
 import './formstyle.css'
 
-function Form() {
+function Loginform() {
     return (
         <>
             {/*<nav className="navigation-menu--mobile-container" role="navigation">*/}
             <div className="form">
-                <h4>Login</h4>
                 <form>
                     <label className="label1">
                         Email Address:
@@ -13,22 +12,30 @@ function Form() {
                     <br/> <br/>
                     <input className="box" type="text" name="" />
                     <br/> <br/>
-                    <label className="label2">
-                        Password:
-                    </label>
+                    <div>
+                        <label className="label2">
+                            Password:
+                        </label>
+                        <text className="forgot-password">Forgot Password</text>
+                    </div>
                     <br/> <br/>
                     <input className="box1" type="text" name="" />
+
                     <br/> <br/>
 
                     <input className="login-bar" type="submit" value="Login" />
+                    <div>
+                        <text className="not-a-member">Not a member?</text>
+                        <button className="sign-up">Sign Up</button>
+                    </div>
                 </form>
 
 
-                </div>
+            </div>
 
             {/*</nav>*/}
         </>
     );
 }
 
-export default Form;
+export default Loginform;

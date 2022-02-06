@@ -15,8 +15,8 @@ function Header() {
                         <h4 >Home</h4>
                         <h4 >Services</h4>
                         <h4 >About Us</h4>
-                        <h4 >Login</h4>
-                        <h4 >Sign Up</h4>
+                       <div className= "login-div"><h4 >Login</h4></div>
+                        <div className="signup-div"><h4 >Sign Up</h4></div>
                     </div>
                 <div>
                     <img src="Ellipse 6" alt="facebook"/>

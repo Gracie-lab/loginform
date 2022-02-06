@@ -30,7 +30,7 @@
     left: 453px;
     top: 396px;
 
-    font-family: Ubuntu;
+    font-family: Ubuntu, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -59,4 +59,82 @@
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 5px;
+}
+
+.forgot-password{
+    position: absolute;
+    width: 144px;
+    height: 21px;
+    left: 839px;
+    top: 395px;
+
+    font-family: Ubuntu, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #6461F7;
+}
+
+.not-a-member{
+    position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 453px;
+    top: 614px;
+
+    font-family: Ubuntu, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #616161;
+}
+
+.sign-up{
+    position: absolute;
+    width: 65px;
+    height: 21px;
+    left: 583px;
+    top: 614px;
+
+    font-family: Ubuntu, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #6461F7;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    position: absolute;
+    width: 75px;
+    height: 28px;
+    left: 685px;
+    top: 191px;
+
+    font-family: Ubuntu, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    color: #FFD600;
 }

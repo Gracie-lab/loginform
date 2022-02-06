@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*font-family: Ubuntu serif;*/
+    /*fonts-family: Ubuntu serif;*/
 }
 
 .text{
@@ -49,12 +49,36 @@
 
 .header-links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 30%;
+
 
 
 }
 
 h4{
     color: white;
+}
+
+.login-div{
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 784px;
+    top: 76px;
+    border: 1px solid #FFD600;
+    justify-items: normal;
+}
+
+.signup-div{
+    position: absolute;
+    width: 69px;
+    height: 29px;
+    left: 843px;
+    top: 44px;
+
+    border: 1px solid #FFFCFC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
 }

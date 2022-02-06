@@ -1,16 +1,15 @@
 import Header from "../components/header/Header";
-import Loginform from "../components/form/loginform";
+import Signupform from "../components/form/signupform";
 import Footer from "../components/footer/Footer";
 
-
-function Login() {
+function Signup() {
     return (
         <div className="App">
             <Header/>
-            <Loginform />
+            <Signupform />
             <Footer/>
         </div>
     )
 }
 
-export default Login;
+export default Signup;
